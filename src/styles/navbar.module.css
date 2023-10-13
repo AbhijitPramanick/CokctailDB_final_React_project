@@ -33,6 +33,11 @@
   font-weight: 600;
   margin-bottom: 5vh;
 }
-.pageList li {
-  cursor: pointer;
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  color: yellow;
+  text-decoration: underline;
 }

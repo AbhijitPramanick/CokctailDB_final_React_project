@@ -5,6 +5,78 @@
     rgb(241, 0, 0),
     rgb(95, 2, 2)
   );
-  height: fit-content;
+  height: 71vh;
   width: 100vw;
+}
+.display {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  width: 90%;
+}
+.display h1 {
+  color: yellow;
+}
+.searchBtn {
+  font-size: 1.5rem;
+  padding: 1vh;
+  border-radius: 10px;
+  background: linear-gradient(to right bottom, rgb(86, 0, 0), red);
+  color: white;
+  cursor: pointer;
+}
+.searchBtn:hover {
+  background: linear-gradient(to right bottom, red, rgb(86, 0, 0));
+}
+.searchBtn:active {
+  color: yellow;
+}
+.drinkContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.drinkImg {
+  width: 20vw;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.name {
+  color: yellow;
+  margin-top: 2vh;
+  font-size: 2rem;
+}
+.instruction {
+  height: 100%;
+  width: 30vw;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.insHeading {
+  font-size: 1.9rem;
+  color: yellow;
+  padding-bottom: 4vh;
+}
+.insInfo {
+  font-size: 1.2rem;
+}
+.otherDetails {
+  width: 20vw;
+  color: bisque;
+  font-size: 1.5rem;
 }
