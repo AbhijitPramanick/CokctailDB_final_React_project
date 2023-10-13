@@ -1,0 +1,22 @@
+.main {
+  background: linear-gradient(
+    to right,
+    rgb(69, 0, 0),
+    rgb(241, 0, 0),
+    rgb(95, 2, 2)
+  );
+  height: 71.2vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 15vh;
+}
+.main img {
+  width: 40vh;
+}
+.main h1 {
+  font-size: 4.8rem;
+  color: white;
+  text-align: center;
+}

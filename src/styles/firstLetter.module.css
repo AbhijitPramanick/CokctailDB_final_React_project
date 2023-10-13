@@ -1,0 +1,87 @@
+.main {
+  background: linear-gradient(
+    to right,
+    rgb(69, 0, 0),
+    rgb(241, 0, 0),
+    rgb(95, 2, 2)
+  );
+  height: fit-content;
+  min-height: 71vh;
+  width: 100vw;
+}
+.container {
+  margin-inline: auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5vh;
+  color: yellow;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+.letterSpan {
+  color: white;
+  letter-spacing: 1vw;
+  font-size: 2rem;
+  cursor: pointer;
+  padding-inline: auto;
+}
+.letterSpan:hover {
+  /* text-decoration: underline; */
+  color: yellow;
+  font-weight: 600;
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  width: 90%;
+}
+.drinkContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid white;
+  padding-block: 5vh;
+}
+.imgName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.drinkImg {
+  width: 20vw;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.name {
+  color: yellow;
+  margin-top: 5vh;
+}
+.instruction {
+  width: 30vw;
+  padding: 3vw;
+}
+.insHeading {
+  font-size: 1.9rem;
+  color: yellow;
+  padding-bottom: 2vh;
+}
+.insInfo {
+  font-size: 1.2rem;
+}
+.otherDetails {
+  width: 20vw;
+  color: bisque;
+  font-size: 1.5rem;
+}
